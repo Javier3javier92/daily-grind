@@ -98,5 +98,5 @@ break;
 console.log(coffee);
 document.getElementById("coffee-output").innerHTML = coffeeTemplate(coffee);
 document.getElementsByTagName("HTML")[0]
-document.getElementById("coffee-hightlight").style.color = coffee.color;
+//document.getElementById("coffee-hightlight").style.color = coffee.color;
 //alert(today);
