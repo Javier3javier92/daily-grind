@@ -44,7 +44,7 @@ switch (myDay) {
 
     case 1:
     today = "Monday";
-    cofee = {
+    coffee = {
         name:"Bubble Tea",
         pic:"images/bubble-tea.jpg",
         alt: "A picture of a Drip coffee",
@@ -56,7 +56,7 @@ break;
 
     case 2:
         today = "Tuesday";
-        cofee = {
+        coffee = {
             color: "brown",
             name:"Drip",
             pic:"images/drip.jpg",
@@ -70,7 +70,7 @@ break;
 
     case 3:
         today = "Wednesday";
-        cofee = {
+        coffee = {
             name:"Caramel",
             pic:"images/caramel-latte.jpg",
             alt: "A picture of a caramel latte",
@@ -82,7 +82,7 @@ break;
 
     case 4:
     today = "Monday";
-    cofee = {
+    coffee = {
         name:"Bubble Tea",
         pic:"images/bubble-tea.jpg",
         alt: "A picture of a Drip coffee",
