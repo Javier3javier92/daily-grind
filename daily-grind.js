@@ -25,9 +25,10 @@ function coffeeTemplate(coffee){
 
     myReturn +=
 
-    <p>
+    `<p>
 
     </p>
+    `
 
     return myReturn;
 
@@ -43,12 +44,12 @@ switch (myDay) {
 
     case 1:
     today = "Monday";
-    cofee = "pink",
+    cofee = {
         name:"Bubble Tea",
         pic:"images/bubble-tea.jpg",
         alt: "A picture of a Drip coffee",
         day:"Wednesday",
-        desc:brown
+        desc:"pink"
 
     };
 break;
@@ -69,24 +70,24 @@ break;
 
     case 3:
         today = "Wednesday";
-        cofee = "Yellow",
+        cofee = {
             name:"Caramel",
             pic:"images/caramel-latte.jpg",
             alt: "A picture of a caramel latte",
             day:"Wednesday",
-            desc:yellow
+            desc:"yellow"
 
         };
     break;
 
     case 4:
     today = "Monday";
-    cofee = "pink",
+    cofee = {
         name:"Bubble Tea",
-        pic:"images/bubble-tea.jpg"
+        pic:"images/bubble-tea.jpg",
         alt: "A picture of a Drip coffee",
         day:"Wednesday",
-        desc:brown
+        desc:"brown"
 
     };
 break;
