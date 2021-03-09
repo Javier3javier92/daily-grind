@@ -51,7 +51,7 @@ switch (myDay) {
             alt: "A picture of a Drip pumpkin spice latte",
             day:"Sunday",
             color:"white",
-            desc: "pumkin spice latte"
+            desc: `<br> pumkin spice latte`
         };
     break;
     case 1:
@@ -62,7 +62,7 @@ switch (myDay) {
         alt: "A picture of a Bubble tea",
         day:"Monday",
         color:"pink",
-        desc: "bubble tea"
+        desc: `<br> bubble tea`
     };
 break;
 
@@ -74,7 +74,7 @@ break;
             alt: "A picture of a Drip coffee",
             day:"Tuesday",
             color:"brown",
-            desc: "drip"
+            desc: `<br> drip`
         };
     break;
 
@@ -87,7 +87,7 @@ break;
             alt: "A picture of a caramel latte",
             day:"wednesday",
             color:"yellow",
-            desc: "caramel latte"
+            desc: `<br> caramel latte`
 
         };
     break;
@@ -100,7 +100,7 @@ break;
         alt: "A picture of a cold brew",
         day:"Thursday",
         color:"red",
-        desc: "cold brew"
+        desc: '<br> cold brew'
 
     };
 break;
@@ -112,7 +112,7 @@ case 5:
         alt: "A picture of a frappaccino",
         day:"Friday",
         color:"blue",
-        desc: "frappaccino"
+        desc: `<br> frappaccino`
 
     };
 break;
@@ -124,7 +124,7 @@ case 6:
         alt: "A picture of a mocha",
         day:"Saturday",
       color:"green",
-      desc: "mocha"
+      desc: `<br> mocha`
     };
 break;
 
@@ -132,6 +132,6 @@ break;
 }
 console.log(coffee);
 document.getElementById("coffee-output").innerHTML = coffeeTemplate(coffee);
-document.getElementsByTagName("HTML")[0]
-//document.getElementById("coffee-hightlight").style.color = coffee.color;
-//alert(today);
+document.getElementsByClassName("feature")[0].style.color = coffee.color;
+document.getElementsByClassName("feature")[1].style.color = coffee.color;
+document.styleSheets[1].cssRules[0].style.setProperty("background-color", coffee.color);
