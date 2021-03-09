@@ -73,7 +73,7 @@ break;
             pic:"images/drip.jpg",
             alt: "A picture of a Drip coffee",
             day:"Tuesday",
-            color"brown",
+            color:"brown",
             desc: "drip"
         };
     break;
